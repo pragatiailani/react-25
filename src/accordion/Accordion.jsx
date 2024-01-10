@@ -4,7 +4,7 @@ import "./styles.css";
 
 function Accordion() {
   const [active, setActive] = React.useState([]);
-  const [isSingleAccordion, setIsSingleAccordion] = React.useState(false);
+  const [isSingleAccordion, setIsSingleAccordion] = React.useState(true);
   
   const toggleAccordion = (index) => {
     if (isSingleAccordion) {
@@ -26,7 +26,7 @@ function Accordion() {
   };
   
   return (
-    <div>
+    <div className="accordion-main">
       <h1>Accordion</h1>
       <button
         className="accordion-type-toggle"
