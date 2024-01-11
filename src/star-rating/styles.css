@@ -1,0 +1,28 @@
+.star-rating-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  background: rgb(26, 26, 26);
+  color: white;
+  font-weight: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.star-rating-container .rating-box {
+  background: #424242;
+  display: flex;
+  gap: 20px;
+  padding: 10vh 10vw;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  color: black;
+}
+
+.star-rating-container .active {
+  color: rgb(255, 229, 35);
+}
