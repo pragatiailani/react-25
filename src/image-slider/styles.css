@@ -1,0 +1,77 @@
+.image-slider {
+  background-color: burlywood;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-slider .container {
+  width: 55vw;
+  height: 60vh;
+  position: relative;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.image-slider .container img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+}
+.hide{
+  opacity: 0;
+}
+
+.image-slider .container .arrow {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  z-index: 100;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.image-slider .container .arrow:hover {
+  color: rgb(0, 0, 0);
+}
+
+.image-slider .container .arrow-left {
+  left: 0;
+  transform: translateX(20%);
+}
+
+.image-slider .container .arrow-right {
+  right: 0;
+  transform: translateX(-20%);
+}
+
+.image-slider .container .slides-indicators {
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  position: absolute;
+  width: 100%;
+  bottom: 10px;
+}
+
+.image-slider .container .slides-indicators .circle-indicator{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.image-slider .container .slides-indicators .active-slide{
+  background-color: rgb(0, 0, 0);
+}
+
+.image-slider .container .slides-indicators .circle-indicator:hover{
+  background-color: rgba(0, 0, 0, 0.7);
+}
