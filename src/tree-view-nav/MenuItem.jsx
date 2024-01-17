@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import MenuList from "./MenuList";
+import {FaPlus, FaMinus} from "react-icons/fa";
 
 function MenuItem({ listItem }) {
   const [displayCurrentChildren, setDisplayCurrentChildren] = useState({});
@@ -19,7 +20,7 @@ function MenuItem({ listItem }) {
           <span
             onClick={() => handleToggleChildren(listItem.label)}
           >{
-            displayCurrentChildren[listItem.label] ? "-" : "+"
+            displayCurrentChildren[listItem.label] ? <FaMinus/> : <FaPlus/>
           }
           </span>
         ) : null}

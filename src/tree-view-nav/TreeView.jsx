@@ -1,6 +1,7 @@
 import React from "react";
 import menu from "./data";
 import MenuList from "./MenuList";
+import "./styles.css";
 
 function TreeView() {
   return (
