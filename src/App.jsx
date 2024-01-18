@@ -1,10 +1,11 @@
 import Accordion from "./accordion/Accordion";
 import ColourGenerator from "./colour-generator/ColourGenerator";
+import StarRating from "./star-rating/StarRating";
 import ImageSlider from "./image-slider/ImageSlider";
 import LoadMore from "./load-more/LoadMore";
-import QRCodeGenerator from "./qr-code/QRCode";
-import StarRating from "./star-rating/StarRating";
 import TreeView from "./tree-view-nav/TreeView";
+import QRCodeGenerator from "./qr-code/QRCode";
+import ChangeTheme from "./change-theme/ChangeTheme";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <LoadMore limit={10}/>
       <TreeView />
       <QRCodeGenerator />
+      <ChangeTheme />
     </div>
   );
 }
