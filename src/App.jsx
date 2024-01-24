@@ -6,18 +6,20 @@ import LoadMore from "./load-more/LoadMore";
 import TreeView from "./tree-view-nav/TreeView";
 import QRCodeGenerator from "./qr-code/QRCode";
 import ChangeTheme from "./change-theme/ChangeTheme";
+import ScrollIndicator from "./scroll-indicator/ScrollIndicator";
 
 function App() {
   return (
     <div className="App">
-      <Accordion />      
-      <ColourGenerator />      
+      <Accordion />
+      <ColourGenerator />
       <StarRating noOfStars={10} />
       <ImageSlider url={"https://picsum.photos/v2/list"} page={1} limit={10} />
       <LoadMore limit={10}/>
       <TreeView />
       <QRCodeGenerator />
       <ChangeTheme />
+      <ScrollIndicator />
     </div>
   );
 }

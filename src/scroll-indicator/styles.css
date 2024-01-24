@@ -1,0 +1,14 @@
+.scrollIndicator{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 10px;
+    background-color: #ccc;
+    z-index: 9999;
+}
+
+.scrollIndicator-progress{
+  height: 100%;
+    background-color: #000dff;
+}
