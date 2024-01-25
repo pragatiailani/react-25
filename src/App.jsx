@@ -7,6 +7,7 @@ import TreeView from "./tree-view-nav/TreeView";
 import QRCodeGenerator from "./qr-code/QRCode";
 import ChangeTheme from "./change-theme/ChangeTheme";
 import ScrollIndicator from "./scroll-indicator/ScrollIndicator";
+import TabsMain from "./multiple-tabs/TabsMain";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <QRCodeGenerator />
       <ChangeTheme />
       <ScrollIndicator />
+      <TabsMain />
     </div>
   );
 }
