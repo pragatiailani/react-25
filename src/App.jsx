@@ -8,6 +8,7 @@ import QRCodeGenerator from "./qr-code/QRCode";
 import ChangeTheme from "./change-theme/ChangeTheme";
 import ScrollIndicator from "./scroll-indicator/ScrollIndicator";
 import TabsMain from "./multiple-tabs/TabsMain";
+import ModalPopup from "./modal-popup/ModalPopup";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <ChangeTheme />
       <ScrollIndicator />
       <TabsMain />
+      <ModalPopup />
     </div>
   );
 }

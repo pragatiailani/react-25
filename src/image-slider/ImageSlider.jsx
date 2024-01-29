@@ -15,7 +15,6 @@ function ImageSlider({ url, page = 5, limit = 10 }) {
       const data = await response.json();
 
       if (data) {
-        console.log(data);
         setImages(data);
         setLoading(false);
       }
