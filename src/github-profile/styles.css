@@ -1,0 +1,52 @@
+.github-profile-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(190deg, #d8d8d8 0%, #9ceac9 100%);
+}
+.github-profile-container .search-box{
+  border: 1px solid #000;
+  border-radius: 0.5em;
+  overflow: hidden;
+}
+.github-profile-container input{
+  padding: 10px 5px;
+  border: none;
+  outline: none;
+}
+.github-profile-container button{
+  padding: 10px 5px;
+  border: none;
+  cursor: pointer;
+}
+.github-profile-container a{
+  text-decoration: none;
+  color: #000;
+}
+.github-profile-container .github-profile{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  max-width: 65vw;
+  margin-top: 5vh;
+  background-color: rgba(230, 238, 245, 0.4);
+  border-radius: 0.3em;
+  text-align: center;
+  gap: 20px;
+}
+.github-profile-container .github-profile .github-avtar{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.github-profile-container .github-profile .github-avtar img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}

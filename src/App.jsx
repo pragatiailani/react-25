@@ -9,6 +9,7 @@ import ChangeTheme from "./change-theme/ChangeTheme";
 import ScrollIndicator from "./scroll-indicator/ScrollIndicator";
 import TabsMain from "./multiple-tabs/TabsMain";
 import ModalPopup from "./modal-popup/ModalPopup";
+import GithubProfile from "./github-profile/GithubProfile";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <ScrollIndicator />
       <TabsMain />
       <ModalPopup />
+      <GithubProfile />
     </div>
   );
 }
