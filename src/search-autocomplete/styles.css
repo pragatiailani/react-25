@@ -1,0 +1,32 @@
+.autocomplete-container{
+  width: 100vw;
+  height: 100vh;
+  background: rgb(215, 215, 255);
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* flex-direction: column; */
+  gap: 20px;
+  position: relative;
+}
+.autocomplete-container h1{
+  color: blue;
+  position: absolute;
+  top: 10vh;
+}
+.autocomplete-container input{
+  padding: 10px 5px;
+  outline: none;
+  border-radius: 0.3em;
+  border: 1px solid rgb(134, 134, 134);
+  position: absolute;
+  top: 20vh;
+}
+.autocomplete-container .suggestions{
+  position: absolute;
+  top: 30vh;
+  list-style: none;
+}
+.autocomplete-container .suggestions li{
+  cursor: pointer;
+}
