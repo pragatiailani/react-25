@@ -11,6 +11,7 @@ import TabsMain from "./multiple-tabs/TabsMain";
 import ModalPopup from "./modal-popup/ModalPopup";
 import GithubProfile from "./github-profile/GithubProfile";
 import AutoComplete from "./search-autocomplete/AutoComplete";
+import TicTacToe from "./tic-tac-toe/TicTacToe";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
       <ModalPopup />
       <GithubProfile />
       <AutoComplete />
+      <TicTacToe />
     </div>
   );
 }
