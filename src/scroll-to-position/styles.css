@@ -1,0 +1,10 @@
+.scroll-button {
+  width: 90%;
+  padding: 10px 20px;
+  margin: 20px 5%;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #ffc2f7;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
