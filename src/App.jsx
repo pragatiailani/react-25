@@ -14,11 +14,12 @@ import AutoComplete from "./search-autocomplete/AutoComplete";
 import TicTacToe from "./tic-tac-toe/TicTacToe";
 import ScrollToBottom from "./scroll-to-position/ScrollToBottom";
 import ScrollToTop from "./scroll-to-position/ScrollToTop";
+import Weather from "./weather/Weather";
 
 function App() {
   return (
     <div className="App">
-      <ScrollToBottom />
+      {/* <ScrollToBottom />
       <Accordion />
       <ColourGenerator />
       <StarRating noOfStars={10} />
@@ -33,7 +34,8 @@ function App() {
       <GithubProfile />
       <AutoComplete />
       <TicTacToe />
-      <ScrollToTop />
+      <ScrollToTop /> */}
+      <Weather />
     </div>
   );
 }
