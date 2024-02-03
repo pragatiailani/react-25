@@ -19,7 +19,7 @@ import Weather from "./weather/Weather";
 function App() {
   return (
     <div className="App">
-      {/* <ScrollToBottom />
+      <ScrollToBottom />
       <Accordion />
       <ColourGenerator />
       <StarRating noOfStars={10} />
@@ -34,8 +34,8 @@ function App() {
       <GithubProfile />
       <AutoComplete />
       <TicTacToe />
-      <ScrollToTop /> */}
       <Weather />
+      <ScrollToTop />
     </div>
   );
 }
